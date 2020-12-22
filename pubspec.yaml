@@ -1,8 +1,7 @@
 name: zgh
 description: A geohash compression tool.
 version: 0.0.1
-author: Theo Champion <theo@zigg.app>
-homepage: 'https://github.com/theochampion/zgh'
+homepage: 'https://github.com/ziggapp/zgh'
 
 environment:
   sdk: '>=2.7.0 <3.0.0'
