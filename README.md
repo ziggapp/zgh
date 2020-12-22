@@ -1,3 +1,5 @@
+![banner](https://user-images.githubusercontent.com/14275989/102886072-b89a6580-4454-11eb-963c-6675db83f6c9.png)
+
 # zgh - Light & fast geohash compression
 
 Geohash is a public domain geocode system invented in 2008 by Gustavo Niemeyer and G.M. Morton, which encodes a geographic location into a short string of letters and digits. It is a hierarchical spatial data structure which subdivides space into buckets of grid shape, which is one of the many applications of what is known as a Z-order curve, and generally space-filling curves.
