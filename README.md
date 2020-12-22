@@ -15,6 +15,21 @@ The following example show a base geohash set of `3424` geohashes at level 7
 
 ![compression exemple](https://user-images.githubusercontent.com/14275989/102883143-ca2d3e80-444f-11eb-956a-33f8d0f429b7.png)
 
+## Benchmark
+
+65 Millions hashes compress to 100k in about 1 minute on the following machine:
+
+- _Model:_ MacBook Pro (13-inch, 2017)
+- _Processor:_ 2.3 GHz Dual-Core Intel Core i5
+- _Memory:_ 16 GB 2133 MHz LPDDR3
+
+```
+$ dart ./benchmark/speed_bench.dart
+Input: 65540960 geohashes
+Compression done in 0:00:59.309131
+Output: 105447 geohashes (-99.83911282349236%)
+```
+
 ## Installation
 
 ### 1. Depend on it
